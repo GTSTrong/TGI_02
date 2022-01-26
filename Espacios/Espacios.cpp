@@ -4,11 +4,6 @@
 
 typedef char cadena[80];
 
-char vec_simbolos[] = "+, -, /, *, ?, ¿, !, ¡";
-char vec_mayus[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-char vec_minus[] = "abcdefghijklmnopqrstuvwxyz";
-char vec_digitos[] = "0123456789";	
-
 struct Fecha
 {
 	float dd;
