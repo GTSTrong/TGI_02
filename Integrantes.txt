@@ -1,0 +1,17 @@
+/*
+Universidad Tecnológica Nacional
+	Facultad Regional Tucumán
+	Ingeniería en Sistemas de Información
+	
+Algoritmos y Estructuras de Datos
+
+Integrantes:
+
+            44030752 - Toledo, Genaro - genaro_n7@hotmail.com
+            44367714 - Saavedra, Mariana - mariana18saave@gmail.com				
+            44479000 - Tula, Esteban - christula2002@gmail.com
+            44814073 - Soria, Julián - julianoscarsoriajulian@hotmail.com
+			   
+Comisión:
+			-- 1K06 --
+*/
