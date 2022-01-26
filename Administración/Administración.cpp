@@ -4,11 +4,6 @@
 
 typedef char cadena[80];
 
-char vec_simbolos[] = "+, -, /, *, ?, ¿, !, ¡";
-char vec_mayus[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-char vec_minus[] = "abcdefghijklmnopqrstuvwxyz";
-char vec_digitos[] = "0123456789";	
-
 struct Fecha
 {
 	float dd;
@@ -142,6 +137,11 @@ void MenuAdministracion(FILE *arch)
 
 void RegistrarProfesional(FILE *arch)
 {	
+	char vec_simbolos[] = "+, -, /, *, ?, ¿, !, ¡";
+	char vec_mayus[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char vec_minus[] = "abcdefghijklmnopqrstuvwxyz";
+	char vec_digitos[] = "0123456789";	
+	
 	system("cls");
 	
 	arch = fopen("Profesionales.dat", "a+b");
@@ -429,9 +429,14 @@ void RegistrarProfesional(FILE *arch)
 
 void RegistrarRecepcionista(FILE *arch)
 {
-system("cls");
+	system("cls");
 	
 	arch = fopen("Recepcionistas.dat", "a+b");
+	
+	char vec_simbolos[] = "+, -, /, *, ?, ¿, !, ¡";
+	char vec_mayus[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char vec_minus[] = "abcdefghijklmnopqrstuvwxyz";
+	char vec_digitos[] = "0123456789";	
 	
 	Usuarios sesion;
 	char primerCaracter;
